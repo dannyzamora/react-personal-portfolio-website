@@ -1,39 +1,40 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj1 from "../assets/sorting.png";
+import Proj2 from "../assets/fitness.png";
+import Proj3 from "../assets/expensify.png";
+import Proj4 from "../assets/songfinder.png";
+import Proj5 from "../assets/soup.jpg";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
+    name: "Sorting Algorithms Visualizer",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "React, Node.js, SASS",
+    url: "https://github.com/dannyzamora/SortingVisualizer",
   },
   {
-    name: "Ecommerce Website",
+    name: "Gym Tracker",
     image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    skills: "React, Node.js, Express.js, Firebase",
+    url: "https://github.com/dannyzamora/GymTracker2.0",
   },
   {
-    name: "Spotify Clone",
+    name: "Expensify",
     image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    skills: "React, Node.js, Express.js, Firebase",
+    url: "https://github.com/dannyzamora/expensify-app",
   },
   {
-    name: "Social Media Website",
+    name: "Song Finder",
     image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    skills: "Python, Spotify API, Genius API",
+    url: "https://github.com/dannyzamora/SongFinder",
+
   },
   {
-    name: "Dashboard Visualizer",
+    name: "Wallpaper Finder",
     image: Proj5,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    skills: "Python, BeautifulSoup, SoupStrainer, urllib",
+    url: "https://github.com/dannyzamora/wallpaper",
+
   },
 ];

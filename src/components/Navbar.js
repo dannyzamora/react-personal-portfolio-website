@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation} from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import "../styles/Navbar.css";
-import ReorderIcon from "@material-ui/icons/Reorder";
+import ReorderIcon from "@mui/icons-material//Reorder";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -25,6 +26,7 @@ function Navbar() {
       </div>
       <div className="links">
         <Link to="/"> Home </Link>
+        <HashLink to="/#skills"> Skills </HashLink>
         <Link to="/projects"> Projects </Link>
         <Link to="/experience"> Experience </Link>
       </div>

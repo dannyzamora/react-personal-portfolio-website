@@ -1,41 +1,46 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
+import Link from '@mui/material/Link';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import GithubIcon from "@mui/icons-material/GitHub";
 import "../styles/Home.css";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
+        <h2> Hi, It's Danny ✌</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <Link href="https://www.linkedin.com/in/danny-zamora/" target="_blank" rel="noopener">
+            <LinkedInIcon />
+          </Link> 
+          <Link href="mailto:dannyzamora.js@gmail.com" target="_blank" rel="noopener">
+            <EmailIcon />
+          </Link>
+          <Link href="https://github.com/dannyzamora" target="_blank" rel="noopener">
+            <GithubIcon />
+          </Link>
         </div>
       </div>
-      <div className="skills">
+      <div id ='skills' className="skills">
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, Redux, Gatsby, HTML, CSS, NPM, Yarn
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
+            Java Spring, NodeJS, ExpressJS, GraphQL, SQL, MongoDB, Firebase, AWS S3
             </span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <span>Java, JavaScript, Python</span>
           </li>
         </ol>
       </div>

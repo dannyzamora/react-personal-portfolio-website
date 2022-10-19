@@ -1,20 +1,27 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GithubIcon from "@mui/icons-material/GitHub";
+import MailIcon from "@mui/icons-material/Mail";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Link from '@mui/material/Link';
 import "../styles/Footer.css";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        
+        <Link href="https://www.linkedin.com/in/danny-zamora/" target="_blank" rel="noopener">
+          <LinkedInIcon />
+        </Link>
+        <Link href="mailto:dannyzamora.js@gmail.com" target="_blank" rel="noopener">
+          <MailIcon />
+        </Link>
+        <Link href="https://github.com/dannyzamora" target="_blank" rel="noopener">
+          <GithubIcon />
+        </Link>
+       
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      <p> &copy; 2022 dannysview.com</p>
     </div>
   );
 }
